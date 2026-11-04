@@ -1,0 +1,28 @@
+{
+  "winners": 1,
+  "title": "Food Network Magazine October/November Who’s Counting Contest",
+  "sponsor": "ship\"",
+  "prize": " Guess how many cookies are in this jar for this month’s Food Network Magazine Who’s Counting Contest for your chance to win $500! The grand prize winner will receive $500 and three runners-up will each receive a $50. Guess how many cookies are in this jar To enter, send your best guess to whoscount",
+  "arvUsd": 500.0,
+  "arvTotalUsd": null,
+  "arvFlag": null,
+  "startDate": "2026-11-15",
+  "endDate": "2026-11-15",
+  "entryFrequency": "one-time",
+  "usOnly": false,
+  "excludedStates": [
+    "NY"
+  ],
+  "minAge": null,
+  "eligibilityText": "",
+  "entryMethod": "other",
+  "officialRulesUrl": null,
+  "entryUrl": "https://www.foodnetwork.com/magazine/food-network-magazine-whos-counting",
+  "source": "https://sweetiessweeps.com/food-network-magazine-october-november-whos-counting-contest/",
+  "sourceSite": "sweetiessweeps.com",
+  "postedAt": "2026-10-07T08:00:20",
+  "alsoListedOn": [],
+  "rulesFetched": "ok",
+  "qualityScore": 15.7,
+  "enterableByState": true
+}

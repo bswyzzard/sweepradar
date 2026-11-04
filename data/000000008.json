@@ -1,0 +1,31 @@
+{
+  "winners": 1,
+  "title": "Hallmark Countdown to Christmas Sweepstakes",
+  "sponsor": "Hallmark Media United States",
+  "prize": " Participate in the Hallmark Countdown to Christmas Sweepstakes for a chance to win $20,000 cash and a $250 Spoonful of Comfort gift card. How To Enter? During the Sweepstakes period, visit https://christmasmoviegame.hallmarkchannel.com , and follow the instructions to complete and submit the regist",
+  "arvUsd": 20250.0,
+  "arvTotalUsd": 32759.89,
+  "arvFlag": null,
+  "startDate": "2026-10-14",
+  "endDate": "2026-12-29",
+  "entryFrequency": "daily",
+  "usOnly": true,
+  "excludedStates": [
+    "CA"
+  ],
+  "minAge": 18,
+  "eligibilityText": "Eligibility: Open only to legal residents of the fifty (50) United States and the District of Columbia, who are eighteen (18) years of age or older at the time of entry.",
+  "entryMethod": "online form",
+  "officialRulesUrl": "https://christmasmoviegame.hallmarkchannel.com/rules",
+  "entryUrl": "https://christmasmoviegame.hallmarkchannel.com",
+  "source": "https://online-sweepstakes.com/hallmark-countdown-to-christmas-sweepstakes/",
+  "sourceSite": "online-sweepstakes.com",
+  "postedAt": "2026-10-15T16:52:16",
+  "alsoListedOn": [
+    "sweepstakeslovers.com",
+    "sweetiessweeps.com"
+  ],
+  "rulesFetched": "ok",
+  "qualityScore": 426.9,
+  "enterableByState": true
+}

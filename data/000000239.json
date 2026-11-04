@@ -1,0 +1,28 @@
+{
+  "winners": 4,
+  "title": "Starbucks Uncap, Scan, & Win Sweepstakes",
+  "sponsor": "Starbucks Corporation",
+  "prize": " Participate in the Starbucks Uncap, Scan, & Win Sweepstakes for a chance to win free Starbucks food or drinks for a year, or instant win prizes such as 60 or 25 Stars, free handcrafted beverages, and bakery item coupons. How To Enter: During the sweepstakes period, visit https://uncapstars.starbuck",
+  "arvUsd": 10.0,
+  "arvTotalUsd": null,
+  "arvFlag": null,
+  "startDate": "2026-11-02",
+  "endDate": "2026-12-31",
+  "entryFrequency": "daily",
+  "usOnly": true,
+  "excludedStates": [],
+  "minAge": null,
+  "eligibilityText": "Eligibility: Open only to legal residents of the fifty (50) United States and the District of Columbia, who are eighteen (18) years of age or older at the time of entry.",
+  "entryMethod": "other",
+  "officialRulesUrl": "https://starbucks.promo.eprize.com/uncapscanwin2026/public/fulfillment/rules.pdf",
+  "entryUrl": "https://uncapstars.starbucks.com/",
+  "source": "https://online-sweepstakes.com/starbucks-uncap-scan-win-sweepstakes/",
+  "sourceSite": "online-sweepstakes.com",
+  "postedAt": "2026-11-03T15:29:51",
+  "alsoListedOn": [
+    "sweepstakeslovers.com"
+  ],
+  "rulesFetched": "http-200",
+  "qualityScore": 10.1,
+  "enterableByState": true
+}

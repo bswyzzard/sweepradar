@@ -1,0 +1,31 @@
+name: Daily rebuild
+on:
+  schedule: [{ cron: '0 14 * * *' }]  # 6 AM PT (winter)
+  workflow_dispatch:
+permissions: { contents: read, pages: write, id-token: write }
+concurrency: { group: pages, cancel-in-progress: true }
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Build from Apify dataset (falls back to committed data)
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          APIFY_ACTOR: ${{ vars.APIFY_ACTOR }}   # e.g. username~sweepstakes-radar
+        run: |
+          if [ -n "$APIFY_TOKEN" ] && [ -n "$APIFY_ACTOR" ]; then
+            node build.mjs "https://api.apify.com/v2/acts/$APIFY_ACTOR/runs/last/dataset/items?token=$APIFY_TOKEN&status=SUCCEEDED&clean=true"
+          else
+            node build.mjs data
+          fi
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: dist }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment: { name: github-pages }
+    steps:
+      - uses: actions/deploy-pages@v4

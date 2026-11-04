@@ -1,0 +1,30 @@
+{
+  "winners": 1,
+  "title": "Win $5,000 Cash in the Valpak Holiday Haul Sweepstakes",
+  "sponsor": "ed by Valpak Direct Marketing Systems",
+  "prize": " No gift cards, vouchers or complicated prize package here. The Valpak $5,000 Holiday Haul Sweepstakes is giving one winner a $5,000 check to spend however they like. You can enter once per day, and signing up for Valpak advertising or marketing messages is not required. If selected, you’ll have 72 ",
+  "arvUsd": 5000.0,
+  "arvTotalUsd": null,
+  "arvFlag": null,
+  "startDate": "2026-12-04",
+  "endDate": "2027-02-15",
+  "entryFrequency": "daily",
+  "usOnly": false,
+  "excludedStates": [
+    "FL"
+  ],
+  "minAge": null,
+  "eligibilityText": "Open to U.",
+  "entryMethod": "other",
+  "officialRulesUrl": "https://www.valpak.com/holiday?rules=true",
+  "entryUrl": "https://valpak.com/holiday",
+  "source": "https://www.contestbee.com/2026/10/30/win-5000-cash-in-the-valpak-holiday-haul-sweepstakes/",
+  "sourceSite": "contestbee.com",
+  "postedAt": "2026-10-30T01:34:00",
+  "alsoListedOn": [
+    "sweepstakeslovers.com"
+  ],
+  "rulesFetched": "ok",
+  "qualityScore": 148.5,
+  "enterableByState": true
+}
