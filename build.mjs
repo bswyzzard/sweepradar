@@ -114,3 +114,7 @@ fs.writeFileSync(path.join(OUT, 'sitemap.xml'), `<?xml version="1.0" encoding="U
 fs.writeFileSync(path.join(OUT, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${BASE_URL + BP}/sitemap.xml\n`);
 fs.writeFileSync(path.join(OUT, '404.html'), page({ title: 'Not found | ' + NAME, desc: 'Page not found', pathname: '/404', noindex: true, body: `<h1>Not found</h1><p>This sweepstakes may have ended. <a href="${BP}/">See open sweepstakes</a>.</p>` }));
 console.log(`built: ${all.length} listings (${live.length} live, ${ended.length} ended), ${urls.length} indexable URLs`);
+
+// Copy static files (e.g. Search Console verification) into dist root
+import { cpSync as __cp, existsSync as __ex } from 'node:fs';
+if (__ex('static')) __cp('static', 'dist', { recursive: true });
