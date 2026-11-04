@@ -2,7 +2,7 @@
 // Env: DATASET_URL (Apify dataset items URL), BASE_URL, BASE_PATH
 import fs from 'node:fs'; import path from 'node:path';
 const SRC = process.argv[2] || process.env.DATASET_URL || '../apify-actors/sweepstakes-radar/storage/datasets/default';
-const BASE_URL = process.env.BASE_URL || 'https://bswizz-jpeg.github.io';
+const BASE_URL = process.env.BASE_URL || 'https://bswyzzard.github.io';
 const BP = process.env.BASE_PATH ?? '/sweepradar';
 const OUT = 'dist', NAME = 'SweepRadar';
 const today = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
